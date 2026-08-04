@@ -1,11 +1,10 @@
-# src/embed.py
+
 import torch
 import esm
 import numpy as np
 import pandas as pd
 import os
 
-# Load ESM-2 model once
 model, alphabet = esm.pretrained.esm2_t33_650M_UR50D()
 batch_converter = alphabet.get_batch_converter()
 model.eval()
