@@ -1,0 +1,2 @@
+species,vfdb_organism,source_genome_id,n_positive,n_negative,positive_to_negative_ratio,negative_to_positive_ratio,matching_method,random_seed,median_abs_length_difference,max_abs_length_difference,ks_statistic,ks_p_value
+Legionella pneumophila,Legionella pneumophila subsp. pneumophila str. Philadelphia 1,272624.6,461,461,1.0,1.0,nearest_length_without_replacement,42,0.0,244,0.008676789587852495,0.9999999999999999

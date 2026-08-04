@@ -1,0 +1,6 @@
+
+# Downloaded/reproducible source data
+raw/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
