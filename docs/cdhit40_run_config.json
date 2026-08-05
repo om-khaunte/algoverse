@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "2026-08-05T05:50:32.340650+00:00",
+  "method": "CD-HIT",
+  "identity_threshold": 0.4,
+  "word_length": 2,
+  "global_identity": true,
+  "accurate_clustering": true,
+  "input_policy": "Combined VFDB positives and same-genome negatives.",
+  "cross_species_policy": "Drop every member of any CD-HIT cluster containing more than one species.",
+  "positive_input": "data/vf_proteins.csv",
+  "negative_input": "data/vf_negatives.csv",
+  "positive_sha256": "b8a66469ee089778547da90a5e9413b4e6582c9aea241715a8a90610b2cb1bd5",
+  "negative_sha256": "8a1123ccd8bf414e58ad1c8e5a311709b05e4273216b3d364884166b6fce917e",
+  "combined_sequence_count": 7373,
+  "combined_species_count": 73,
+  "cdhit_version": "\t\t====== CD-HIT version 4.8.1 (built on Aug 20 2021) ======"
+}
