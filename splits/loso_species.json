@@ -1,0 +1,18 @@
+{
+  "source_dataset": "data/vf_dataset_cdhit40_zero_shot_ready.csv",
+  "min_sequences_per_species": 300,
+  "species": [
+    "Legionella pneumophila",
+    "Pseudomonas aeruginosa",
+    "Mycobacterium tuberculosis",
+    "Escherichia coli",
+    "Burkholderia pseudomallei",
+    "Acinetobacter baumannii",
+    "Coxiella burnetii",
+    "Helicobacter pylori",
+    "Porphyromonas gingivalis",
+    "Anaplasma phagocytophilum",
+    "Bacteroides fragilis",
+    "Vibrio parahaemolyticus"
+  ]
+}
