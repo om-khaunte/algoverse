@@ -1,1 +1,4 @@
 
+header = "run_id,track,source_species,target_species,model,seed,F1,AUROC,n_train,n_test,date"
+csv_text = header + "\n" + registry_df.to_csv(index=False, header=False)
+print(csv_text)
