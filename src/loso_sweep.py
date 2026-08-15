@@ -100,7 +100,7 @@ def to_registry_format(results_df, track="VF", model="ESM2_MLP"):
             "target_species": row["test_species"],
             "model": model,
             "seed": row["seed"],
-            "F1": "",  # ONLY AUROC WAS COMPUTED IN THIS SWEEP 
+            "F1": "",  # Note: F1 wasn't computed in this sweep, only AUROC(i can add it in a follow-up run if needed)
             "AUROC": row["auroc"],
             "n_train": row["n_train"],
             "n_test": row["n_test"],
