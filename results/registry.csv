@@ -1,3 +1,75 @@
-header = "run_id,track,source_species,target_species,model,seed,F1,AUROC,n_train,n_test,date"
-csv_text = header + "\n" + registry_df.to_csv(index=False, header=False)
-print(csv_text)
+run_id,track,source_species,target_species,model,seed,F1,AUROC,n_train,n_test,date
+loso_fold1_seed0,VF,all_except_Legionella_pneumophila,Legionella pneumophila,ESM2_MLP,0,,0.8528991465037975,3718,783,2026-08-15
+loso_fold1_seed1,VF,all_except_Legionella_pneumophila,Legionella pneumophila,ESM2_MLP,1,,0.8522955654738601,3718,783,2026-08-15
+loso_fold1_seed2,VF,all_except_Legionella_pneumophila,Legionella pneumophila,ESM2_MLP,2,,0.8477344504476286,3718,783,2026-08-15
+loso_fold2_seed0,VF,all_except_Pseudomonas_aeruginosa,Pseudomonas aeruginosa,ESM2_MLP,0,,0.7326596387564626,4008,493,2026-08-15
+loso_fold2_seed1,VF,all_except_Pseudomonas_aeruginosa,Pseudomonas aeruginosa,ESM2_MLP,1,,0.7344389981870678,4008,493,2026-08-15
+loso_fold2_seed2,VF,all_except_Pseudomonas_aeruginosa,Pseudomonas aeruginosa,ESM2_MLP,2,,0.7237796280131605,4008,493,2026-08-15
+loso_fold3_seed0,VF,all_except_Mycobacterium_tuberculosis,Mycobacterium tuberculosis,ESM2_MLP,0,,0.6763103802672148,4222,279,2026-08-15
+loso_fold3_seed1,VF,all_except_Mycobacterium_tuberculosis,Mycobacterium tuberculosis,ESM2_MLP,1,,0.6813977389516958,4222,279,2026-08-15
+loso_fold3_seed2,VF,all_except_Mycobacterium_tuberculosis,Mycobacterium tuberculosis,ESM2_MLP,2,,0.6646454265159302,4222,279,2026-08-15
+loso_fold4_seed0,VF,all_except_Escherichia_coli,Escherichia coli,ESM2_MLP,0,,0.9315367295243456,4224,277,2026-08-15
+loso_fold4_seed1,VF,all_except_Escherichia_coli,Escherichia coli,ESM2_MLP,1,,0.9320292710385589,4224,277,2026-08-15
+loso_fold4_seed2,VF,all_except_Escherichia_coli,Escherichia coli,ESM2_MLP,2,,0.9287925696594428,4224,277,2026-08-15
+loso_fold5_seed0,VF,all_except_Burkholderia_pseudomallei,Burkholderia pseudomallei,ESM2_MLP,0,,0.7883022774327123,4265,236,2026-08-15
+loso_fold5_seed1,VF,all_except_Burkholderia_pseudomallei,Burkholderia pseudomallei,ESM2_MLP,1,,0.7902987281869269,4265,236,2026-08-15
+loso_fold5_seed2,VF,all_except_Burkholderia_pseudomallei,Burkholderia pseudomallei,ESM2_MLP,2,,0.7639751552795032,4265,236,2026-08-15
+loso_fold6_seed0,VF,all_except_Acinetobacter_baumannii,Acinetobacter baumannii,ESM2_MLP,0,,0.7672829229825637,4287,214,2026-08-15
+loso_fold6_seed1,VF,all_except_Acinetobacter_baumannii,Acinetobacter baumannii,ESM2_MLP,1,,0.7679838780338211,4287,214,2026-08-15
+loso_fold6_seed2,VF,all_except_Acinetobacter_baumannii,Acinetobacter baumannii,ESM2_MLP,2,,0.7628143345307983,4287,214,2026-08-15
+loso_fold7_seed0,VF,all_except_Coxiella_burnetii,Coxiella burnetii,ESM2_MLP,0,,0.828613569321534,4298,203,2026-08-15
+loso_fold7_seed1,VF,all_except_Coxiella_burnetii,Coxiella burnetii,ESM2_MLP,1,,0.828416912487709,4298,203,2026-08-15
+loso_fold7_seed2,VF,all_except_Coxiella_burnetii,Coxiella burnetii,ESM2_MLP,2,,0.8202556538839725,4298,203,2026-08-15
+loso_fold8_seed0,VF,all_except_Helicobacter_pylori,Helicobacter pylori,ESM2_MLP,0,,0.7799145299145299,4316,185,2026-08-15
+loso_fold8_seed1,VF,all_except_Helicobacter_pylori,Helicobacter pylori,ESM2_MLP,1,,0.7793209876543209,4316,185,2026-08-15
+loso_fold8_seed2,VF,all_except_Helicobacter_pylori,Helicobacter pylori,ESM2_MLP,2,,0.7625830959164293,4316,185,2026-08-15
+loso_fold9_seed0,VF,all_except_Porphyromonas_gingivalis,Porphyromonas gingivalis,ESM2_MLP,0,,0.7005735492577598,4347,154,2026-08-15
+loso_fold9_seed1,VF,all_except_Porphyromonas_gingivalis,Porphyromonas gingivalis,ESM2_MLP,1,,0.7052968960863698,4347,154,2026-08-15
+loso_fold9_seed2,VF,all_except_Porphyromonas_gingivalis,Porphyromonas gingivalis,ESM2_MLP,2,,0.7022604588394064,4347,154,2026-08-15
+loso_fold10_seed0,VF,all_except_Anaplasma_phagocytophilum,Anaplasma phagocytophilum,ESM2_MLP,0,,0.7839093273875883,4354,147,2026-08-15
+loso_fold10_seed1,VF,all_except_Anaplasma_phagocytophilum,Anaplasma phagocytophilum,ESM2_MLP,1,,0.7798216276477146,4354,147,2026-08-15
+loso_fold10_seed2,VF,all_except_Anaplasma_phagocytophilum,Anaplasma phagocytophilum,ESM2_MLP,2,,0.8121516164994426,4354,147,2026-08-15
+loso_fold11_seed0,VF,all_except_Bacteroides_fragilis,Bacteroides fragilis,ESM2_MLP,0,,0.837157809983897,4360,141,2026-08-15
+loso_fold11_seed1,VF,all_except_Bacteroides_fragilis,Bacteroides fragilis,ESM2_MLP,1,,0.8393719806763286,4360,141,2026-08-15
+loso_fold11_seed2,VF,all_except_Bacteroides_fragilis,Bacteroides fragilis,ESM2_MLP,2,,0.8280998389694042,4360,141,2026-08-15
+loso_fold12_seed0,VF,all_except_Vibrio_parahaemolyticus,Vibrio parahaemolyticus,ESM2_MLP,0,,0.8967405475880053,4377,124,2026-08-15
+loso_fold12_seed1,VF,all_except_Vibrio_parahaemolyticus,Vibrio parahaemolyticus,ESM2_MLP,1,,0.8967405475880051,4377,124,2026-08-15
+loso_fold12_seed2,VF,all_except_Vibrio_parahaemolyticus,Vibrio parahaemolyticus,ESM2_MLP,2,,0.8938722294654498,4377,124,2026-08-15
+
+
+samespecies_Legionella_pneumophila_seed0,VF,Legionella pneumophila,Legionella pneumophila,ESM2_MLP,0,,0.8644920480363518,626,156,2026-08-16
+samespecies_Legionella_pneumophila_seed1,VF,Legionella pneumophila,Legionella pneumophila,ESM2_MLP,1,,0.8438818565400844,626,156,2026-08-16
+samespecies_Legionella_pneumophila_seed2,VF,Legionella pneumophila,Legionella pneumophila,ESM2_MLP,2,,0.820675105485232,626,156,2026-08-16
+samespecies_Pseudomonas_aeruginosa_seed0,VF,Pseudomonas aeruginosa,Pseudomonas aeruginosa,ESM2_MLP,0,,0.7412790697674418,394,98,2026-08-16
+samespecies_Pseudomonas_aeruginosa_seed1,VF,Pseudomonas aeruginosa,Pseudomonas aeruginosa,ESM2_MLP,1,,0.7620431893687707,394,98,2026-08-16
+samespecies_Pseudomonas_aeruginosa_seed2,VF,Pseudomonas aeruginosa,Pseudomonas aeruginosa,ESM2_MLP,2,,0.7882059800664452,394,98,2026-08-16
+samespecies_Mycobacterium_tuberculosis_seed0,VF,Mycobacterium tuberculosis,Mycobacterium tuberculosis,ESM2_MLP,0,,0.7346938775510204,223,55,2026-08-16
+samespecies_Mycobacterium_tuberculosis_seed1,VF,Mycobacterium tuberculosis,Mycobacterium tuberculosis,ESM2_MLP,1,,0.9081632653061225,223,55,2026-08-16
+samespecies_Mycobacterium_tuberculosis_seed2,VF,Mycobacterium tuberculosis,Mycobacterium tuberculosis,ESM2_MLP,2,,0.631377551020408,223,55,2026-08-16
+samespecies_Escherichia_coli_seed0,VF,Escherichia coli,Escherichia coli,ESM2_MLP,0,,0.9574829931972789,221,55,2026-08-16
+samespecies_Escherichia_coli_seed1,VF,Escherichia coli,Escherichia coli,ESM2_MLP,1,,1.0,221,55,2026-08-16
+samespecies_Escherichia_coli_seed2,VF,Escherichia coli,Escherichia coli,ESM2_MLP,2,,0.923469387755102,221,55,2026-08-16
+samespecies_Burkholderia_pseudomallei_seed0,VF,Burkholderia pseudomallei,Burkholderia pseudomallei,ESM2_MLP,0,,0.9142857142857143,188,47,2026-08-16
+samespecies_Burkholderia_pseudomallei_seed1,VF,Burkholderia pseudomallei,Burkholderia pseudomallei,ESM2_MLP,1,,0.9089285714285714,188,47,2026-08-16
+samespecies_Burkholderia_pseudomallei_seed2,VF,Burkholderia pseudomallei,Burkholderia pseudomallei,ESM2_MLP,2,,0.8410714285714286,188,47,2026-08-16
+samespecies_Acinetobacter_baumannii_seed0,VF,Acinetobacter baumannii,Acinetobacter baumannii,ESM2_MLP,0,,0.8543478260869566,171,42,2026-08-16
+samespecies_Acinetobacter_baumannii_seed1,VF,Acinetobacter baumannii,Acinetobacter baumannii,ESM2_MLP,1,,0.8869565217391304,171,42,2026-08-16
+samespecies_Acinetobacter_baumannii_seed2,VF,Acinetobacter baumannii,Acinetobacter baumannii,ESM2_MLP,2,,0.8934782608695653,171,42,2026-08-16
+samespecies_Coxiella_burnetii_seed0,VF,Coxiella burnetii,Coxiella burnetii,ESM2_MLP,0,,0.9106280193236715,162,40,2026-08-16
+samespecies_Coxiella_burnetii_seed1,VF,Coxiella burnetii,Coxiella burnetii,ESM2_MLP,1,,0.8502415458937198,162,40,2026-08-16
+samespecies_Coxiella_burnetii_seed2,VF,Coxiella burnetii,Coxiella burnetii,ESM2_MLP,2,,0.893719806763285,162,40,2026-08-16
+samespecies_Helicobacter_pylori_seed0,VF,Helicobacter pylori,Helicobacter pylori,ESM2_MLP,0,,0.6815476190476191,148,37,2026-08-16
+samespecies_Helicobacter_pylori_seed1,VF,Helicobacter pylori,Helicobacter pylori,ESM2_MLP,1,,0.8482142857142857,148,37,2026-08-16
+samespecies_Helicobacter_pylori_seed2,VF,Helicobacter pylori,Helicobacter pylori,ESM2_MLP,2,,0.761904761904762,148,37,2026-08-16
+samespecies_Porphyromonas_gingivalis_seed0,VF,Porphyromonas gingivalis,Porphyromonas gingivalis,ESM2_MLP,0,,0.6625,123,30,2026-08-16
+samespecies_Porphyromonas_gingivalis_seed1,VF,Porphyromonas gingivalis,Porphyromonas gingivalis,ESM2_MLP,1,,0.7791666666666667,123,30,2026-08-16
+samespecies_Porphyromonas_gingivalis_seed2,VF,Porphyromonas gingivalis,Porphyromonas gingivalis,ESM2_MLP,2,,0.7250000000000001,123,30,2026-08-16
+samespecies_Anaplasma_phagocytophilum_seed0,VF,Anaplasma phagocytophilum,Anaplasma phagocytophilum,ESM2_MLP,0,,0.9642857142857143,117,29,2026-08-16
+samespecies_Anaplasma_phagocytophilum_seed1,VF,Anaplasma phagocytophilum,Anaplasma phagocytophilum,ESM2_MLP,1,,0.9866071428571429,117,29,2026-08-16
+samespecies_Anaplasma_phagocytophilum_seed2,VF,Anaplasma phagocytophilum,Anaplasma phagocytophilum,ESM2_MLP,2,,0.9598214285714286,117,29,2026-08-16
+samespecies_Bacteroides_fragilis_seed0,VF,Bacteroides fragilis,Bacteroides fragilis,ESM2_MLP,0,,0.8523809523809524,112,28,2026-08-16
+samespecies_Bacteroides_fragilis_seed1,VF,Bacteroides fragilis,Bacteroides fragilis,ESM2_MLP,1,,0.819047619047619,112,28,2026-08-16
+samespecies_Bacteroides_fragilis_seed2,VF,Bacteroides fragilis,Bacteroides fragilis,ESM2_MLP,2,,0.9619047619047618,112,28,2026-08-16
+samespecies_Vibrio_parahaemolyticus_seed0,VF,Vibrio parahaemolyticus,Vibrio parahaemolyticus,ESM2_MLP,0,,0.9166666666666666,99,24,2026-08-16
+samespecies_Vibrio_parahaemolyticus_seed1,VF,Vibrio parahaemolyticus,Vibrio parahaemolyticus,ESM2_MLP,1,,0.9487179487179487,99,24,2026-08-16
+samespecies_Vibrio_parahaemolyticus_seed2,VF,Vibrio parahaemolyticus,Vibrio parahaemolyticus,ESM2_MLP,2,,0.8782051282051282,99,24,2026-08-16
