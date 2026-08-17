@@ -1,0 +1,43 @@
+species,gram_class,gram_binary,phenotype_note,evidence_type,label_status
+Acinetobacter baumannii,negative,0,Gram-negative coccobacillus,Manual literature cross-check: standard microbiology reference and organism description,locked
+Aggregatibacter actinomycetemcomitans,negative,0,Gram-negative coccobacillus,Manual literature cross-check: standard microbiology reference and organism description,locked
+Aggregatibacter aphrophilus,negative,0,Gram-negative coccobacillus,Manual literature cross-check: standard microbiology reference and organism description,locked
+Anaplasma phagocytophilum,negative,0,Obligate intracellular Gram-negative bacterium,Manual literature cross-check: standard microbiology reference and organism description,locked
+Bacillus anthracis,positive,1,Gram-positive spore-forming rod,Manual literature cross-check: standard microbiology reference and organism description,locked
+Bacillus cereus,positive,1,Gram-positive spore-forming rod,Manual literature cross-check: standard microbiology reference and organism description,locked
+Bacteroides fragilis,negative,0,Gram-negative anaerobic rod,Manual literature cross-check: standard microbiology reference and organism description,locked
+Bacteroides thetaiotaomicron,negative,0,Gram-negative anaerobic rod,Manual literature cross-check: standard microbiology reference and organism description,locked
+Brucella canis,negative,0,Gram-negative coccobacillus,Manual literature cross-check: standard microbiology reference and organism description,locked
+Brucella suis,negative,0,Gram-negative coccobacillus,Manual literature cross-check: standard microbiology reference and organism description,locked
+Burkholderia pseudomallei,negative,0,Gram-negative rod,Manual literature cross-check: standard microbiology reference and organism description,locked
+Clostridium perfringens,positive,1,Gram-positive anaerobic spore-forming rod,Manual literature cross-check: standard microbiology reference and organism description,locked
+Corynebacterium diphtheriae,positive,1,Gram-positive bacillus,Manual literature cross-check: standard microbiology reference and organism description,locked
+Coxiella burnetii,negative,0,Obligate intracellular Gram-negative bacterium,Manual literature cross-check: standard microbiology reference and organism description,locked
+Enterobacter cloacae,negative,0,Gram-negative rod,Manual literature cross-check: standard microbiology reference and organism description,locked
+Enterococcus faecalis,positive,1,Gram-positive coccus,Manual literature cross-check: standard microbiology reference and organism description,locked
+Enterococcus faecium,positive,1,Gram-positive coccus,Manual literature cross-check: standard microbiology reference and organism description,locked
+Escherichia coli,negative,0,Gram-negative rod,Manual literature cross-check: standard microbiology reference and organism description,locked
+Fusobacterium animalis,negative,0,Gram-negative anaerobic rod,Manual literature cross-check: standard microbiology reference and organism description,locked
+Haemophilus ducreyi,negative,0,Gram-negative coccobacillus,Manual literature cross-check: standard microbiology reference and organism description,locked
+Haemophilus influenzae,negative,0,Gram-negative coccobacillus,Manual literature cross-check: standard microbiology reference and organism description,locked
+Helicobacter pylori,negative,0,Gram-negative curved rod,Manual literature cross-check: standard microbiology reference and organism description,locked
+Klebsiella pneumoniae,negative,0,Gram-negative rod,Manual literature cross-check: standard microbiology reference and organism description,locked
+Legionella pneumophila,negative,0,Gram-negative rod,Manual literature cross-check: standard microbiology reference and organism description,locked
+Mycobacterium tuberculosis,acid_fast,,Acid-fast; atypical/poor conventional Gram staining,Manual literature cross-check: standard microbiology reference and organism description,locked
+Neisseria meningitidis,negative,0,Gram-negative diplococcus,Manual literature cross-check: standard microbiology reference and organism description,locked
+Porphyromonas gingivalis,negative,0,Gram-negative anaerobic rod,Manual literature cross-check: standard microbiology reference and organism description,locked
+Pseudomonas aeruginosa,negative,0,Gram-negative rod,Manual literature cross-check: standard microbiology reference and organism description,locked
+Rickettsia conorii,negative,0,Obligate intracellular Gram-negative bacterium,Manual literature cross-check: standard microbiology reference and organism description,locked
+Rickettsia typhi,negative,0,Obligate intracellular Gram-negative bacterium,Manual literature cross-check: standard microbiology reference and organism description,locked
+Shigella dysenteriae,negative,0,Gram-negative rod,Manual literature cross-check: standard microbiology reference and organism description,locked
+Shigella sonnei,negative,0,Gram-negative rod,Manual literature cross-check: standard microbiology reference and organism description,locked
+Staphylococcus aureus,positive,1,Gram-positive coccus,Manual literature cross-check: standard microbiology reference and organism description,locked
+Streptococcus agalactiae,positive,1,Gram-positive coccus,Manual literature cross-check: standard microbiology reference and organism description,locked
+Streptococcus mutans,positive,1,Gram-positive coccus,Manual literature cross-check: standard microbiology reference and organism description,locked
+Streptococcus pneumoniae,positive,1,Gram-positive diplococcus,Manual literature cross-check: standard microbiology reference and organism description,locked
+Streptococcus pyogenes,positive,1,Gram-positive coccus,Manual literature cross-check: standard microbiology reference and organism description,locked
+Vibrio cholerae,negative,0,Gram-negative curved rod,Manual literature cross-check: standard microbiology reference and organism description,locked
+Vibrio parahaemolyticus,negative,0,Gram-negative curved rod,Manual literature cross-check: standard microbiology reference and organism description,locked
+Vibrio vulnificus,negative,0,Gram-negative curved rod,Manual literature cross-check: standard microbiology reference and organism description,locked
+Yersinia pestis,negative,0,Gram-negative coccobacillus,Manual literature cross-check: standard microbiology reference and organism description,locked
+Yersinia pseudotuberculosis,negative,0,Gram-negative rod,Manual literature cross-check: standard microbiology reference and organism description,locked
