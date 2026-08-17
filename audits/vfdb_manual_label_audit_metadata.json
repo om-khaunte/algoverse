@@ -1,0 +1,25 @@
+{
+  "audit_name": "VFDB manual positive-label spot-check",
+  "purpose": "Estimate the observed error rate among positive virulence-factor labels for the study limitations section.",
+  "dataset": "data/vf_dataset_cdhit40_zero_shot_ready.csv",
+  "random_seed": 20260816,
+  "n_random_species": 3,
+  "n_positive_records_per_species": 20,
+  "n_total_records": 60,
+  "sampling_frame": "Rows with label == 1 from species containing at least 20 positive rows.",
+  "selected_species": [
+    "Escherichia coli",
+    "Legionella pneumophila",
+    "Streptococcus agalactiae"
+  ],
+  "selected_species_positive_counts": {
+    "Escherichia coli": 212,
+    "Legionella pneumophila": 398,
+    "Streptococcus agalactiae": 30
+  },
+  "decision_definitions": {
+    "supported": "The record's VF annotation is supported by the appropriate VFDB entry using the available accession, gene, product, organism, and/or sequence evidence.",
+    "unsupported": "The record is labeled positive but cannot be supported by VFDB, or it is assigned to the wrong VF/gene/species.",
+    "uncertain": "Available identifiers are insufficient to make a defensible VFDB match. Do not count as supported or unsupported; report it separately."
+  }
+}
