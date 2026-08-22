@@ -1,0 +1,7 @@
+ablation,model,feature_set,train_gram_class,test_gram_class,direction,seed,auroc,n_train,n_test,n_train_positive,n_test_positive,n_features,epochs,learning_rate,acid_fast_policy
+B_cross_gram,AAC_DPC_MLP,amino_acid_composition_plus_dipeptide_composition,positive,negative,positive_to_negative,0,0.6480513341865635,446,3820,283,1938,420,50,0.001,Excluded; acid_fast is not assigned to either binary Gram class.
+B_cross_gram,AAC_DPC_MLP,amino_acid_composition_plus_dipeptide_composition,positive,negative,positive_to_negative,1,0.6428919238146626,446,3820,283,1938,420,50,0.001,Excluded; acid_fast is not assigned to either binary Gram class.
+B_cross_gram,AAC_DPC_MLP,amino_acid_composition_plus_dipeptide_composition,positive,negative,positive_to_negative,2,0.6444198967130899,446,3820,283,1938,420,50,0.001,Excluded; acid_fast is not assigned to either binary Gram class.
+B_cross_gram,AAC_DPC_MLP,amino_acid_composition_plus_dipeptide_composition,negative,positive,negative_to_positive,0,0.7569641657092068,3820,446,1938,283,420,50,0.001,Excluded; acid_fast is not assigned to either binary Gram class.
+B_cross_gram,AAC_DPC_MLP,amino_acid_composition_plus_dipeptide_composition,negative,positive,negative_to_positive,1,0.7585683626352187,3820,446,1938,283,420,50,0.001,Excluded; acid_fast is not assigned to either binary Gram class.
+B_cross_gram,AAC_DPC_MLP,amino_acid_composition_plus_dipeptide_composition,negative,positive,negative_to_positive,2,0.7584816492878667,3820,446,1938,283,420,50,0.001,Excluded; acid_fast is not assigned to either binary Gram class.

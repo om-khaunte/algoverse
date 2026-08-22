@@ -1,0 +1,3 @@
+train_gram_class,test_gram_class,direction,mean_auroc,sd_auroc,min_auroc,max_auroc,n_seeds,n_train,n_test,n_train_positive,n_test_positive
+negative,positive,negative_to_positive,0.7580047258774307,0.0009021939364254675,0.7569641657092068,0.7585683626352187,3,3820,446,1938,283
+positive,negative,positive_to_negative,0.6451210515714386,0.0026502061142407414,0.6428919238146626,0.6480513341865635,3,446,3820,283,1938
