@@ -1,0 +1,12 @@
+{
+  "source_dataset": "data/vf_dataset_cdhit40_zero_shot_ready.csv",
+  "feature_matrix": "data/vf_ablation_a_aac_dpc.csv",
+  "alignment_method": "Row-order alignment: the ID-free AAC+DPC matrix was generated from the canonical dataset in its original row order. Row-count and feature-schema equality were verified before associating row i with canonical sample_id i.",
+  "n_samples": 4551,
+  "n_features": 420,
+  "feature_set": "amino_acid_composition_plus_dipeptide_composition",
+  "first_sample_id": "seq_0000001",
+  "last_sample_id": "seq_0007372",
+  "aac_row_sum_min": 0.9999997615814209,
+  "aac_row_sum_max": 1.000000238418579
+}

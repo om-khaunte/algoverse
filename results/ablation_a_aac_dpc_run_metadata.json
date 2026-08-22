@@ -1,0 +1,22 @@
+{
+  "ablation": "A_composition_features",
+  "model": "AAC_DPC_MLP",
+  "feature_matrix": "data/vf_ablation_a_aac_dpc.csv",
+  "feature_manifest": "data/vf_ablation_a_feature_columns.json",
+  "alignment_report": "data/vf_ablation_a_alignment_report.json",
+  "n_features": 420,
+  "feature_definition": "20 normalized amino-acid composition features plus 400 normalized overlapping dipeptide-composition features.",
+  "dataset": "data/vf_dataset_cdhit40_zero_shot_ready.csv",
+  "folds": "splits/loso_folds.json",
+  "n_loso_folds": 12,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "n_fold_seed_runs": 36,
+  "metric": "AUROC",
+  "training_protocol": "Fresh 420\u219232\u21921 sigmoid MLP trained independently for each LOSO fold and seed, using the Sraavya LOSO sweep implementation.",
+  "mean_auroc_across_fold_seed_runs": 0.6661524789704102,
+  "mean_target_level_auroc": 0.6661524789704103
+}
