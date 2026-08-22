@@ -1,0 +1,13 @@
+species,reached_90pct,percentage_needed,n_samples_needed
+Acinetobacter baumannii,True,0.25,53.0
+Anaplasma phagocytophilum,True,0.1,14.0
+Bacteroides fragilis,True,0.1,14.0
+Burkholderia pseudomallei,True,0.1,23.0
+Coxiella burnetii,True,0.1,20.0
+Escherichia coli,True,0.1,27.0
+Helicobacter pylori,True,0.1,18.0
+Legionella pneumophila,True,0.1,78.0
+Mycobacterium tuberculosis,True,0.1,27.0
+Porphyromonas gingivalis,True,0.1,15.0
+Pseudomonas aeruginosa,True,0.1,49.0
+Vibrio parahaemolyticus,True,0.1,12.0
