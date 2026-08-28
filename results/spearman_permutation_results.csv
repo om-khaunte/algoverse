@@ -1,0 +1,2 @@
+n_species,spearman_rho,standard_p_value,permutation_p_value,n_permutations
+12,-0.44755244755244755,0.14458630130334754,0.14617,100000
