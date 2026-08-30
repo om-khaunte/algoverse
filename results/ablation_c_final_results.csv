@@ -1,0 +1,348 @@
+target_species,num_source_species,source_pool,n_train_controlled,zero_shot_auroc
+Legionella pneumophila,1,Coxiella burnetii,200,0.8391146608200871
+Legionella pneumophila,1,Pseudomonas aeruginosa,200,0.7355597316837627
+Legionella pneumophila,1,Escherichia coli,200,0.8398259076553651
+Legionella pneumophila,3,"Acinetobacter baumannii, Helicobacter pylori, Porphyromonas gingivalis",200,0.8114673870487824
+Legionella pneumophila,3,"Acinetobacter baumannii, Helicobacter pylori, Porphyromonas gingivalis",500,0.6265497350768668
+Legionella pneumophila,3,"Burkholderia pseudomallei, Coxiella burnetii, Helicobacter pylori",200,0.8422532821757629
+Legionella pneumophila,3,"Burkholderia pseudomallei, Coxiella burnetii, Helicobacter pylori",500,0.837163625923316
+Legionella pneumophila,3,"Acinetobacter baumannii, Coxiella burnetii, Porphyromonas gingivalis",200,0.8345274449925614
+Legionella pneumophila,3,"Acinetobacter baumannii, Coxiella burnetii, Porphyromonas gingivalis",500,0.848158588468666
+Legionella pneumophila,3,"Mycobacterium tuberculosis, Burkholderia pseudomallei, Helicobacter pylori",200,0.7153316106804479
+Legionella pneumophila,3,"Mycobacterium tuberculosis, Burkholderia pseudomallei, Helicobacter pylori",500,0.6984639678438129
+Legionella pneumophila,3,"Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis",200,0.8483934956803174
+Legionella pneumophila,3,"Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis",500,0.8421619293712317
+Legionella pneumophila,5,"Mycobacterium tuberculosis, Escherichia coli, Burkholderia pseudomallei, Porphyromonas gingivalis, Anaplasma phagocytophilum",200,0.8105147078015296
+Legionella pneumophila,5,"Mycobacterium tuberculosis, Escherichia coli, Burkholderia pseudomallei, Porphyromonas gingivalis, Anaplasma phagocytophilum",500,0.8343055881815572
+Legionella pneumophila,5,"Mycobacterium tuberculosis, Escherichia coli, Burkholderia pseudomallei, Porphyromonas gingivalis, Anaplasma phagocytophilum",1000,0.8093401717432726
+Legionella pneumophila,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Burkholderia pseudomallei, Acinetobacter baumannii, Porphyromonas gingivalis",200,0.6303865528671729
+Legionella pneumophila,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Burkholderia pseudomallei, Acinetobacter baumannii, Porphyromonas gingivalis",500,0.5375525278626053
+Legionella pneumophila,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Burkholderia pseudomallei, Acinetobacter baumannii, Porphyromonas gingivalis",1000,0.710763970453893
+Legionella pneumophila,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Burkholderia pseudomallei, Helicobacter pylori, Porphyromonas gingivalis",200,0.6541709080468769
+Legionella pneumophila,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Burkholderia pseudomallei, Helicobacter pylori, Porphyromonas gingivalis",500,0.7594484900686451
+Legionella pneumophila,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Burkholderia pseudomallei, Helicobacter pylori, Porphyromonas gingivalis",1000,0.8231148696264975
+Legionella pneumophila,5,"Mycobacterium tuberculosis, Escherichia coli, Burkholderia pseudomallei, Helicobacter pylori, Anaplasma phagocytophilum",200,0.7544762874220239
+Legionella pneumophila,5,"Mycobacterium tuberculosis, Escherichia coli, Burkholderia pseudomallei, Helicobacter pylori, Anaplasma phagocytophilum",500,0.8350070472163496
+Legionella pneumophila,5,"Mycobacterium tuberculosis, Escherichia coli, Burkholderia pseudomallei, Helicobacter pylori, Anaplasma phagocytophilum",1000,0.8468013468013468
+Legionella pneumophila,5,"Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis, Anaplasma phagocytophilum",200,0.8526740270926317
+Legionella pneumophila,5,"Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis, Anaplasma phagocytophilum",500,0.8418160937540782
+Legionella pneumophila,5,"Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis, Anaplasma phagocytophilum",1000,0.8521585362670634
+Pseudomonas aeruginosa,1,Coxiella burnetii,200,0.620173907204727
+Pseudomonas aeruginosa,1,Legionella pneumophila,200,0.6351809574968106
+Pseudomonas aeruginosa,1,Legionella pneumophila,500,0.6956623917276573
+Pseudomonas aeruginosa,1,Escherichia coli,200,0.6266366749479622
+Pseudomonas aeruginosa,3,"Acinetobacter baumannii, Helicobacter pylori, Porphyromonas gingivalis",200,0.6659672329282212
+Pseudomonas aeruginosa,3,"Acinetobacter baumannii, Helicobacter pylori, Porphyromonas gingivalis",500,0.687269186866313
+Pseudomonas aeruginosa,3,"Burkholderia pseudomallei, Coxiella burnetii, Helicobacter pylori",200,0.694923789699859
+Pseudomonas aeruginosa,3,"Burkholderia pseudomallei, Coxiella burnetii, Helicobacter pylori",500,0.7012690525750352
+Pseudomonas aeruginosa,3,"Acinetobacter baumannii, Coxiella burnetii, Porphyromonas gingivalis",200,0.6827704290606326
+Pseudomonas aeruginosa,3,"Acinetobacter baumannii, Coxiella burnetii, Porphyromonas gingivalis",500,0.7063553347210099
+Pseudomonas aeruginosa,3,"Mycobacterium tuberculosis, Burkholderia pseudomallei, Helicobacter pylori",200,0.62912106358692
+Pseudomonas aeruginosa,3,"Mycobacterium tuberculosis, Burkholderia pseudomallei, Helicobacter pylori",500,0.6933290807762036
+Pseudomonas aeruginosa,3,"Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis",200,0.6600080574766668
+Pseudomonas aeruginosa,3,"Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis",500,0.6593701739072049
+Pseudomonas aeruginosa,5,"Mycobacterium tuberculosis, Escherichia coli, Burkholderia pseudomallei, Porphyromonas gingivalis, Anaplasma phagocytophilum",200,0.654938561740415
+Pseudomonas aeruginosa,5,"Mycobacterium tuberculosis, Escherichia coli, Burkholderia pseudomallei, Porphyromonas gingivalis, Anaplasma phagocytophilum",500,0.6887128181024642
+Pseudomonas aeruginosa,5,"Mycobacterium tuberculosis, Escherichia coli, Burkholderia pseudomallei, Porphyromonas gingivalis, Anaplasma phagocytophilum",1000,0.6991036057208084
+Pseudomonas aeruginosa,5,"Legionella pneumophila, Mycobacterium tuberculosis, Burkholderia pseudomallei, Acinetobacter baumannii, Porphyromonas gingivalis",200,0.6663029611226751
+Pseudomonas aeruginosa,5,"Legionella pneumophila, Mycobacterium tuberculosis, Burkholderia pseudomallei, Acinetobacter baumannii, Porphyromonas gingivalis",500,0.7269690458604713
+Pseudomonas aeruginosa,5,"Legionella pneumophila, Mycobacterium tuberculosis, Burkholderia pseudomallei, Acinetobacter baumannii, Porphyromonas gingivalis",1000,0.7041227422278923
+Pseudomonas aeruginosa,5,"Legionella pneumophila, Mycobacterium tuberculosis, Burkholderia pseudomallei, Helicobacter pylori, Porphyromonas gingivalis",200,0.6668233398240784
+Pseudomonas aeruginosa,5,"Legionella pneumophila, Mycobacterium tuberculosis, Burkholderia pseudomallei, Helicobacter pylori, Porphyromonas gingivalis",500,0.6753508359632041
+Pseudomonas aeruginosa,5,"Legionella pneumophila, Mycobacterium tuberculosis, Burkholderia pseudomallei, Helicobacter pylori, Porphyromonas gingivalis",1000,0.7075807426307661
+Pseudomonas aeruginosa,5,"Mycobacterium tuberculosis, Escherichia coli, Burkholderia pseudomallei, Helicobacter pylori, Anaplasma phagocytophilum",200,0.6646411065601289
+Pseudomonas aeruginosa,5,"Mycobacterium tuberculosis, Escherichia coli, Burkholderia pseudomallei, Helicobacter pylori, Anaplasma phagocytophilum",500,0.6647250386087423
+Pseudomonas aeruginosa,5,"Mycobacterium tuberculosis, Escherichia coli, Burkholderia pseudomallei, Helicobacter pylori, Anaplasma phagocytophilum",1000,0.7048613442556907
+Pseudomonas aeruginosa,5,"Legionella pneumophila, Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis, Anaplasma phagocytophilum",200,0.5997616329819379
+Pseudomonas aeruginosa,5,"Legionella pneumophila, Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis, Anaplasma phagocytophilum",500,0.6421808903511717
+Pseudomonas aeruginosa,5,"Legionella pneumophila, Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis, Anaplasma phagocytophilum",1000,0.6747297388034648
+Mycobacterium tuberculosis,1,Coxiella burnetii,200,0.6366906474820144
+Mycobacterium tuberculosis,1,Legionella pneumophila,200,0.6356115107913669
+Mycobacterium tuberculosis,1,Legionella pneumophila,500,0.6295991778006166
+Mycobacterium tuberculosis,1,Escherichia coli,200,0.6317060637204522
+Mycobacterium tuberculosis,3,"Acinetobacter baumannii, Helicobacter pylori, Porphyromonas gingivalis",200,0.6725590955806784
+Mycobacterium tuberculosis,3,"Acinetobacter baumannii, Helicobacter pylori, Porphyromonas gingivalis",500,0.756115107913669
+Mycobacterium tuberculosis,3,"Burkholderia pseudomallei, Coxiella burnetii, Helicobacter pylori",200,0.6717368961973278
+Mycobacterium tuberculosis,3,"Burkholderia pseudomallei, Coxiella burnetii, Helicobacter pylori",500,0.6421891058581706
+Mycobacterium tuberculosis,3,"Acinetobacter baumannii, Coxiella burnetii, Porphyromonas gingivalis",200,0.6581706063720453
+Mycobacterium tuberculosis,3,"Acinetobacter baumannii, Coxiella burnetii, Porphyromonas gingivalis",500,0.6929599177800617
+Mycobacterium tuberculosis,3,"Pseudomonas aeruginosa, Burkholderia pseudomallei, Helicobacter pylori",200,0.6485611510791367
+Mycobacterium tuberculosis,3,"Pseudomonas aeruginosa, Burkholderia pseudomallei, Helicobacter pylori",500,0.7226104830421377
+Mycobacterium tuberculosis,3,"Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis",200,0.6532374100719425
+Mycobacterium tuberculosis,3,"Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis",500,0.6367934224049332
+Mycobacterium tuberculosis,5,"Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Porphyromonas gingivalis, Anaplasma phagocytophilum",200,0.6646968139773896
+Mycobacterium tuberculosis,5,"Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Porphyromonas gingivalis, Anaplasma phagocytophilum",500,0.6985097636176774
+Mycobacterium tuberculosis,5,"Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Porphyromonas gingivalis, Anaplasma phagocytophilum",1000,0.6675231243576568
+Mycobacterium tuberculosis,5,"Legionella pneumophila, Pseudomonas aeruginosa, Burkholderia pseudomallei, Acinetobacter baumannii, Porphyromonas gingivalis",200,0.6347893114080164
+Mycobacterium tuberculosis,5,"Legionella pneumophila, Pseudomonas aeruginosa, Burkholderia pseudomallei, Acinetobacter baumannii, Porphyromonas gingivalis",500,0.7013360739979445
+Mycobacterium tuberculosis,5,"Legionella pneumophila, Pseudomonas aeruginosa, Burkholderia pseudomallei, Acinetobacter baumannii, Porphyromonas gingivalis",1000,0.7121788283658788
+Mycobacterium tuberculosis,5,"Legionella pneumophila, Pseudomonas aeruginosa, Burkholderia pseudomallei, Helicobacter pylori, Porphyromonas gingivalis",200,0.6456320657759507
+Mycobacterium tuberculosis,5,"Legionella pneumophila, Pseudomonas aeruginosa, Burkholderia pseudomallei, Helicobacter pylori, Porphyromonas gingivalis",500,0.6769270298047276
+Mycobacterium tuberculosis,5,"Legionella pneumophila, Pseudomonas aeruginosa, Burkholderia pseudomallei, Helicobacter pylori, Porphyromonas gingivalis",1000,0.6741521068859199
+Mycobacterium tuberculosis,5,"Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Helicobacter pylori, Anaplasma phagocytophilum",200,0.6895169578622816
+Mycobacterium tuberculosis,5,"Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Helicobacter pylori, Anaplasma phagocytophilum",500,0.7146454265159301
+Mycobacterium tuberculosis,5,"Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Helicobacter pylori, Anaplasma phagocytophilum",1000,0.6880267214799589
+Mycobacterium tuberculosis,5,"Legionella pneumophila, Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis, Anaplasma phagocytophilum",200,0.6540596094552928
+Mycobacterium tuberculosis,5,"Legionella pneumophila, Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis, Anaplasma phagocytophilum",500,0.6172661870503597
+Mycobacterium tuberculosis,5,"Legionella pneumophila, Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis, Anaplasma phagocytophilum",1000,0.6392600205549845
+Escherichia coli,1,Coxiella burnetii,200,0.891640866873065
+Escherichia coli,1,Legionella pneumophila,200,0.8962144666479032
+Escherichia coli,1,Legionella pneumophila,500,0.8418941739375175
+Escherichia coli,1,Mycobacterium tuberculosis,200,0.7687165775401069
+Escherichia coli,3,"Acinetobacter baumannii, Helicobacter pylori, Porphyromonas gingivalis",200,0.7671685899240079
+Escherichia coli,3,"Acinetobacter baumannii, Helicobacter pylori, Porphyromonas gingivalis",500,0.6832254432873628
+Escherichia coli,3,"Burkholderia pseudomallei, Coxiella burnetii, Helicobacter pylori",200,0.8822825781030116
+Escherichia coli,3,"Burkholderia pseudomallei, Coxiella burnetii, Helicobacter pylori",500,0.8159301998311287
+Escherichia coli,3,"Acinetobacter baumannii, Coxiella burnetii, Porphyromonas gingivalis",200,0.830987897551365
+Escherichia coli,3,"Acinetobacter baumannii, Coxiella burnetii, Porphyromonas gingivalis",500,0.8867154517309317
+Escherichia coli,3,"Pseudomonas aeruginosa, Burkholderia pseudomallei, Helicobacter pylori",200,0.7459893048128342
+Escherichia coli,3,"Pseudomonas aeruginosa, Burkholderia pseudomallei, Helicobacter pylori",500,0.8428088938924853
+Escherichia coli,3,"Mycobacterium tuberculosis, Coxiella burnetii, Porphyromonas gingivalis",200,0.6862510554461019
+Escherichia coli,3,"Mycobacterium tuberculosis, Coxiella burnetii, Porphyromonas gingivalis",500,0.6998311286236982
+Escherichia coli,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Burkholderia pseudomallei, Porphyromonas gingivalis, Anaplasma phagocytophilum",200,0.7729383619476499
+Escherichia coli,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Burkholderia pseudomallei, Porphyromonas gingivalis, Anaplasma phagocytophilum",500,0.7302279763580072
+Escherichia coli,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Burkholderia pseudomallei, Porphyromonas gingivalis, Anaplasma phagocytophilum",1000,0.6623979735434844
+Escherichia coli,5,"Legionella pneumophila, Pseudomonas aeruginosa, Burkholderia pseudomallei, Acinetobacter baumannii, Porphyromonas gingivalis",200,0.858499859273853
+Escherichia coli,5,"Legionella pneumophila, Pseudomonas aeruginosa, Burkholderia pseudomallei, Acinetobacter baumannii, Porphyromonas gingivalis",500,0.8942443005910498
+Escherichia coli,5,"Legionella pneumophila, Pseudomonas aeruginosa, Burkholderia pseudomallei, Acinetobacter baumannii, Porphyromonas gingivalis",1000,0.8789755136504362
+Escherichia coli,5,"Legionella pneumophila, Pseudomonas aeruginosa, Burkholderia pseudomallei, Helicobacter pylori, Porphyromonas gingivalis",200,0.8803124120461583
+Escherichia coli,5,"Legionella pneumophila, Pseudomonas aeruginosa, Burkholderia pseudomallei, Helicobacter pylori, Porphyromonas gingivalis",500,0.9182381086405853
+Escherichia coli,5,"Legionella pneumophila, Pseudomonas aeruginosa, Burkholderia pseudomallei, Helicobacter pylori, Porphyromonas gingivalis",1000,0.8937517590768365
+Escherichia coli,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Burkholderia pseudomallei, Helicobacter pylori, Anaplasma phagocytophilum",200,0.7839150014072614
+Escherichia coli,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Burkholderia pseudomallei, Helicobacter pylori, Anaplasma phagocytophilum",500,0.8160005629045876
+Escherichia coli,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Burkholderia pseudomallei, Helicobacter pylori, Anaplasma phagocytophilum",1000,0.7707571066704194
+Escherichia coli,5,"Legionella pneumophila, Mycobacterium tuberculosis, Coxiella burnetii, Porphyromonas gingivalis, Anaplasma phagocytophilum",200,0.8912186884323108
+Escherichia coli,5,"Legionella pneumophila, Mycobacterium tuberculosis, Coxiella burnetii, Porphyromonas gingivalis, Anaplasma phagocytophilum",500,0.8354207711792851
+Escherichia coli,5,"Legionella pneumophila, Mycobacterium tuberculosis, Coxiella burnetii, Porphyromonas gingivalis, Anaplasma phagocytophilum",1000,0.8653954404728399
+Burkholderia pseudomallei,1,Coxiella burnetii,200,0.5877698905649217
+Burkholderia pseudomallei,1,Legionella pneumophila,200,0.5942768411712511
+Burkholderia pseudomallei,1,Legionella pneumophila,500,0.7128808044957113
+Burkholderia pseudomallei,1,Mycobacterium tuberculosis,200,0.6966873706004141
+Burkholderia pseudomallei,3,"Acinetobacter baumannii, Helicobacter pylori, Porphyromonas gingivalis",200,0.6320615202602781
+Burkholderia pseudomallei,3,"Acinetobacter baumannii, Helicobacter pylori, Porphyromonas gingivalis",500,0.74371487725525
+Burkholderia pseudomallei,3,"Escherichia coli, Coxiella burnetii, Helicobacter pylori",200,0.7409790002957704
+Burkholderia pseudomallei,3,"Escherichia coli, Coxiella burnetii, Helicobacter pylori",500,0.7003105590062112
+Burkholderia pseudomallei,3,"Acinetobacter baumannii, Coxiella burnetii, Porphyromonas gingivalis",200,0.6507690032534752
+Burkholderia pseudomallei,3,"Acinetobacter baumannii, Coxiella burnetii, Porphyromonas gingivalis",500,0.7545844424726412
+Burkholderia pseudomallei,3,"Pseudomonas aeruginosa, Escherichia coli, Helicobacter pylori",200,0.7724046140195209
+Burkholderia pseudomallei,3,"Pseudomonas aeruginosa, Escherichia coli, Helicobacter pylori",500,0.8026471458148478
+Burkholderia pseudomallei,3,"Mycobacterium tuberculosis, Coxiella burnetii, Porphyromonas gingivalis",200,0.6611949127477078
+Burkholderia pseudomallei,3,"Mycobacterium tuberculosis, Coxiella burnetii, Porphyromonas gingivalis",500,0.650103519668737
+Burkholderia pseudomallei,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Porphyromonas gingivalis, Anaplasma phagocytophilum",200,0.7043774031351671
+Burkholderia pseudomallei,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Porphyromonas gingivalis, Anaplasma phagocytophilum",500,0.8142561372375038
+Burkholderia pseudomallei,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Porphyromonas gingivalis, Anaplasma phagocytophilum",1000,0.7912599822537711
+Burkholderia pseudomallei,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Acinetobacter baumannii, Porphyromonas gingivalis",200,0.728186926944691
+Burkholderia pseudomallei,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Acinetobacter baumannii, Porphyromonas gingivalis",500,0.7052647145814849
+Burkholderia pseudomallei,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Acinetobacter baumannii, Porphyromonas gingivalis",1000,0.758947057083703
+Burkholderia pseudomallei,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Helicobacter pylori, Porphyromonas gingivalis",200,0.6129843241644484
+Burkholderia pseudomallei,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Helicobacter pylori, Porphyromonas gingivalis",500,0.6989056492162082
+Burkholderia pseudomallei,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Helicobacter pylori, Porphyromonas gingivalis",1000,0.7968796214137829
+Burkholderia pseudomallei,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Helicobacter pylori, Anaplasma phagocytophilum",200,0.7219018041999409
+Burkholderia pseudomallei,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Helicobacter pylori, Anaplasma phagocytophilum",500,0.8033126293995859
+Burkholderia pseudomallei,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Helicobacter pylori, Anaplasma phagocytophilum",1000,0.7904466134279797
+Burkholderia pseudomallei,5,"Legionella pneumophila, Mycobacterium tuberculosis, Coxiella burnetii, Porphyromonas gingivalis, Anaplasma phagocytophilum",200,0.6108399881691807
+Burkholderia pseudomallei,5,"Legionella pneumophila, Mycobacterium tuberculosis, Coxiella burnetii, Porphyromonas gingivalis, Anaplasma phagocytophilum",500,0.6387902987281869
+Burkholderia pseudomallei,5,"Legionella pneumophila, Mycobacterium tuberculosis, Coxiella burnetii, Porphyromonas gingivalis, Anaplasma phagocytophilum",1000,0.725377107364685
+Acinetobacter baumannii,1,Coxiella burnetii,200,0.6482081836502235
+Acinetobacter baumannii,1,Legionella pneumophila,200,0.6667834925085429
+Acinetobacter baumannii,1,Legionella pneumophila,500,0.7410847279418208
+Acinetobacter baumannii,1,Mycobacterium tuberculosis,200,0.791553491632349
+Acinetobacter baumannii,3,"Burkholderia pseudomallei, Helicobacter pylori, Porphyromonas gingivalis",200,0.6956978883729081
+Acinetobacter baumannii,3,"Burkholderia pseudomallei, Helicobacter pylori, Porphyromonas gingivalis",500,0.6942083588889862
+Acinetobacter baumannii,3,"Escherichia coli, Coxiella burnetii, Helicobacter pylori",200,0.7162884430035924
+Acinetobacter baumannii,3,"Escherichia coli, Coxiella burnetii, Helicobacter pylori",500,0.6550424953999825
+Acinetobacter baumannii,3,"Burkholderia pseudomallei, Coxiella burnetii, Porphyromonas gingivalis",200,0.7077017436256899
+Acinetobacter baumannii,3,"Burkholderia pseudomallei, Coxiella burnetii, Porphyromonas gingivalis",500,0.6919302549723999
+Acinetobacter baumannii,3,"Pseudomonas aeruginosa, Escherichia coli, Helicobacter pylori",200,0.6984140891965303
+Acinetobacter baumannii,3,"Pseudomonas aeruginosa, Escherichia coli, Helicobacter pylori",500,0.7651800578287917
+Acinetobacter baumannii,3,"Mycobacterium tuberculosis, Coxiella burnetii, Porphyromonas gingivalis",200,0.686234995180934
+Acinetobacter baumannii,3,"Mycobacterium tuberculosis, Coxiella burnetii, Porphyromonas gingivalis",500,0.654779637255761
+Acinetobacter baumannii,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Porphyromonas gingivalis, Anaplasma phagocytophilum",200,0.7485323753614299
+Acinetobacter baumannii,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Porphyromonas gingivalis, Anaplasma phagocytophilum",500,0.7511609568036449
+Acinetobacter baumannii,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Porphyromonas gingivalis, Anaplasma phagocytophilum",1000,0.7834048891614825
+Acinetobacter baumannii,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Porphyromonas gingivalis",200,0.7151493910452992
+Acinetobacter baumannii,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Porphyromonas gingivalis",500,0.8159116796635415
+Acinetobacter baumannii,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Porphyromonas gingivalis",1000,0.7855953736966617
+Acinetobacter baumannii,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Helicobacter pylori, Porphyromonas gingivalis",200,0.7527381056689739
+Acinetobacter baumannii,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Helicobacter pylori, Porphyromonas gingivalis",500,0.7908525365810917
+Acinetobacter baumannii,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Helicobacter pylori, Porphyromonas gingivalis",1000,0.7898011040042057
+Acinetobacter baumannii,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Helicobacter pylori, Anaplasma phagocytophilum",200,0.718654166301586
+Acinetobacter baumannii,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Helicobacter pylori, Anaplasma phagocytophilum",500,0.7871725225619907
+Acinetobacter baumannii,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Helicobacter pylori, Anaplasma phagocytophilum",1000,0.7477438009287655
+Acinetobacter baumannii,5,"Legionella pneumophila, Mycobacterium tuberculosis, Coxiella burnetii, Porphyromonas gingivalis, Anaplasma phagocytophilum",200,0.6192937877858583
+Acinetobacter baumannii,5,"Legionella pneumophila, Mycobacterium tuberculosis, Coxiella burnetii, Porphyromonas gingivalis, Anaplasma phagocytophilum",500,0.6342767020064839
+Acinetobacter baumannii,5,"Legionella pneumophila, Mycobacterium tuberculosis, Coxiella burnetii, Porphyromonas gingivalis, Anaplasma phagocytophilum",1000,0.7491457110312801
+Coxiella burnetii,1,Acinetobacter baumannii,200,0.6854473942969518
+Coxiella burnetii,1,Legionella pneumophila,200,0.8505408062930186
+Coxiella burnetii,1,Legionella pneumophila,500,0.8330383480825958
+Coxiella burnetii,1,Mycobacterium tuberculosis,200,0.7749262536873156
+Coxiella burnetii,3,"Burkholderia pseudomallei, Helicobacter pylori, Porphyromonas gingivalis",200,0.7366764995083579
+Coxiella burnetii,3,"Burkholderia pseudomallei, Helicobacter pylori, Porphyromonas gingivalis",500,0.6944936086529008
+Coxiella burnetii,3,"Escherichia coli, Acinetobacter baumannii, Helicobacter pylori",200,0.8098328416912488
+Coxiella burnetii,3,"Escherichia coli, Acinetobacter baumannii, Helicobacter pylori",500,0.8428711897738447
+Coxiella burnetii,3,"Burkholderia pseudomallei, Acinetobacter baumannii, Porphyromonas gingivalis",200,0.751819075712881
+Coxiella burnetii,3,"Burkholderia pseudomallei, Acinetobacter baumannii, Porphyromonas gingivalis",500,0.6640117994100295
+Coxiella burnetii,3,"Pseudomonas aeruginosa, Escherichia coli, Helicobacter pylori",200,0.8047197640117995
+Coxiella burnetii,3,"Pseudomonas aeruginosa, Escherichia coli, Helicobacter pylori",500,0.811307767944936
+Coxiella burnetii,3,"Mycobacterium tuberculosis, Acinetobacter baumannii, Porphyromonas gingivalis",200,0.7647000983284168
+Coxiella burnetii,3,"Mycobacterium tuberculosis, Acinetobacter baumannii, Porphyromonas gingivalis",500,0.4233038348082596
+Coxiella burnetii,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Porphyromonas gingivalis, Anaplasma phagocytophilum",200,0.5918387413962635
+Coxiella burnetii,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Porphyromonas gingivalis, Anaplasma phagocytophilum",500,0.8009832841691249
+Coxiella burnetii,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Porphyromonas gingivalis, Anaplasma phagocytophilum",1000,0.8061946902654867
+Coxiella burnetii,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Porphyromonas gingivalis",200,0.8477876106194691
+Coxiella burnetii,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Porphyromonas gingivalis",500,0.8504424778761062
+Coxiella burnetii,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Porphyromonas gingivalis",1000,0.8547689282202556
+Coxiella burnetii,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Helicobacter pylori, Porphyromonas gingivalis",200,0.8000983284169125
+Coxiella burnetii,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Helicobacter pylori, Porphyromonas gingivalis",500,0.8404129793510324
+Coxiella burnetii,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Helicobacter pylori, Porphyromonas gingivalis",1000,0.8462143559488693
+Coxiella burnetii,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Helicobacter pylori, Anaplasma phagocytophilum",200,0.8166175024582105
+Coxiella burnetii,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Helicobacter pylori, Anaplasma phagocytophilum",500,0.8136676499508357
+Coxiella burnetii,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Helicobacter pylori, Anaplasma phagocytophilum",1000,0.8002949852507375
+Coxiella burnetii,5,"Legionella pneumophila, Mycobacterium tuberculosis, Acinetobacter baumannii, Porphyromonas gingivalis, Anaplasma phagocytophilum",200,0.8277286135693216
+Coxiella burnetii,5,"Legionella pneumophila, Mycobacterium tuberculosis, Acinetobacter baumannii, Porphyromonas gingivalis, Anaplasma phagocytophilum",500,0.8297935103244838
+Coxiella burnetii,5,"Legionella pneumophila, Mycobacterium tuberculosis, Acinetobacter baumannii, Porphyromonas gingivalis, Anaplasma phagocytophilum",1000,0.871189773844641
+Helicobacter pylori,1,Acinetobacter baumannii,200,0.6112298195631529
+Helicobacter pylori,1,Legionella pneumophila,200,0.7111823361823362
+Helicobacter pylori,1,Legionella pneumophila,500,0.8051994301994302
+Helicobacter pylori,1,Mycobacterium tuberculosis,200,0.6944444444444444
+Helicobacter pylori,3,"Burkholderia pseudomallei, Coxiella burnetii, Porphyromonas gingivalis",200,0.7704178537511871
+Helicobacter pylori,3,"Burkholderia pseudomallei, Coxiella burnetii, Porphyromonas gingivalis",500,0.779320987654321
+Helicobacter pylori,3,"Escherichia coli, Acinetobacter baumannii, Coxiella burnetii",200,0.7294634377967711
+Helicobacter pylori,3,"Escherichia coli, Acinetobacter baumannii, Coxiella burnetii",500,0.7083333333333334
+Helicobacter pylori,3,"Burkholderia pseudomallei, Acinetobacter baumannii, Porphyromonas gingivalis",200,0.6996676163342831
+Helicobacter pylori,3,"Burkholderia pseudomallei, Acinetobacter baumannii, Porphyromonas gingivalis",500,0.6817426400759733
+Helicobacter pylori,3,"Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii",200,0.6505223171889839
+Helicobacter pylori,3,"Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii",500,0.7085707502374169
+Helicobacter pylori,3,"Mycobacterium tuberculosis, Acinetobacter baumannii, Porphyromonas gingivalis",200,0.5953228869895536
+Helicobacter pylori,3,"Mycobacterium tuberculosis, Acinetobacter baumannii, Porphyromonas gingivalis",500,0.7412155745489079
+Helicobacter pylori,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Porphyromonas gingivalis, Anaplasma phagocytophilum",200,0.6648860398860399
+Helicobacter pylori,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Porphyromonas gingivalis, Anaplasma phagocytophilum",500,0.8033000949667617
+Helicobacter pylori,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Porphyromonas gingivalis, Anaplasma phagocytophilum",1000,0.7900047483380817
+Helicobacter pylori,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Porphyromonas gingivalis",200,0.6721272554605888
+Helicobacter pylori,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Porphyromonas gingivalis",500,0.6984805318138652
+Helicobacter pylori,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Porphyromonas gingivalis",1000,0.8192070275403608
+Helicobacter pylori,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis",200,0.6571699905033238
+Helicobacter pylori,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis",500,0.7744539411206077
+Helicobacter pylori,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis",1000,0.7756410256410257
+Helicobacter pylori,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Coxiella burnetii, Anaplasma phagocytophilum",200,0.6801994301994302
+Helicobacter pylori,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Coxiella burnetii, Anaplasma phagocytophilum",500,0.7034662867996202
+Helicobacter pylori,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Coxiella burnetii, Anaplasma phagocytophilum",1000,0.7654320987654321
+Helicobacter pylori,5,"Legionella pneumophila, Mycobacterium tuberculosis, Acinetobacter baumannii, Porphyromonas gingivalis, Anaplasma phagocytophilum",200,0.7794396961063628
+Helicobacter pylori,5,"Legionella pneumophila, Mycobacterium tuberculosis, Acinetobacter baumannii, Porphyromonas gingivalis, Anaplasma phagocytophilum",500,0.7805080721747388
+Helicobacter pylori,5,"Legionella pneumophila, Mycobacterium tuberculosis, Acinetobacter baumannii, Porphyromonas gingivalis, Anaplasma phagocytophilum",1000,0.8142212725546059
+Porphyromonas gingivalis,1,Acinetobacter baumannii,200,0.6523279352226722
+Porphyromonas gingivalis,1,Legionella pneumophila,200,0.6607624831309042
+Porphyromonas gingivalis,1,Legionella pneumophila,500,0.6663292847503374
+Porphyromonas gingivalis,1,Mycobacterium tuberculosis,200,0.5934547908232118
+Porphyromonas gingivalis,3,"Burkholderia pseudomallei, Coxiella burnetii, Helicobacter pylori",200,0.5924426450742241
+Porphyromonas gingivalis,3,"Burkholderia pseudomallei, Coxiella burnetii, Helicobacter pylori",500,0.5998650472334682
+Porphyromonas gingivalis,3,"Escherichia coli, Acinetobacter baumannii, Coxiella burnetii",200,0.5885627530364372
+Porphyromonas gingivalis,3,"Escherichia coli, Acinetobacter baumannii, Coxiella burnetii",500,0.6017206477732794
+Porphyromonas gingivalis,3,"Burkholderia pseudomallei, Acinetobacter baumannii, Helicobacter pylori",200,0.6255060728744939
+Porphyromonas gingivalis,3,"Burkholderia pseudomallei, Acinetobacter baumannii, Helicobacter pylori",500,0.6681848852901484
+Porphyromonas gingivalis,3,"Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii",200,0.6003711201079621
+Porphyromonas gingivalis,3,"Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii",500,0.5915991902834008
+Porphyromonas gingivalis,3,"Mycobacterium tuberculosis, Acinetobacter baumannii, Helicobacter pylori",200,0.6558704453441296
+Porphyromonas gingivalis,3,"Mycobacterium tuberculosis, Acinetobacter baumannii, Helicobacter pylori",500,0.7336369770580297
+Porphyromonas gingivalis,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Helicobacter pylori, Anaplasma phagocytophilum",200,0.6305668016194331
+Porphyromonas gingivalis,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Helicobacter pylori, Anaplasma phagocytophilum",500,0.6666666666666666
+Porphyromonas gingivalis,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Helicobacter pylori, Anaplasma phagocytophilum",1000,0.6803306342780027
+Porphyromonas gingivalis,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Helicobacter pylori",200,0.6290485829959513
+Porphyromonas gingivalis,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Helicobacter pylori",500,0.5981781376518219
+Porphyromonas gingivalis,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Helicobacter pylori",1000,0.6526653171390014
+Porphyromonas gingivalis,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii, Helicobacter pylori",200,0.6103238866396761
+Porphyromonas gingivalis,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii, Helicobacter pylori",500,0.632085020242915
+Porphyromonas gingivalis,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii, Helicobacter pylori",1000,0.6514844804318488
+Porphyromonas gingivalis,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Coxiella burnetii, Anaplasma phagocytophilum",200,0.6174089068825911
+Porphyromonas gingivalis,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Coxiella burnetii, Anaplasma phagocytophilum",500,0.6373144399460189
+Porphyromonas gingivalis,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Coxiella burnetii, Anaplasma phagocytophilum",1000,0.6637989203778677
+Porphyromonas gingivalis,5,"Legionella pneumophila, Mycobacterium tuberculosis, Acinetobacter baumannii, Helicobacter pylori, Anaplasma phagocytophilum",200,0.6756072874493928
+Porphyromonas gingivalis,5,"Legionella pneumophila, Mycobacterium tuberculosis, Acinetobacter baumannii, Helicobacter pylori, Anaplasma phagocytophilum",500,0.734480431848853
+Porphyromonas gingivalis,5,"Legionella pneumophila, Mycobacterium tuberculosis, Acinetobacter baumannii, Helicobacter pylori, Anaplasma phagocytophilum",1000,0.7557354925775979
+Anaplasma phagocytophilum,1,Acinetobacter baumannii,200,0.5769230769230769
+Anaplasma phagocytophilum,1,Legionella pneumophila,200,0.8325901151988109
+Anaplasma phagocytophilum,1,Legionella pneumophila,500,0.7090301003344481
+Anaplasma phagocytophilum,1,Mycobacterium tuberculosis,200,0.771274619100706
+Anaplasma phagocytophilum,3,"Burkholderia pseudomallei, Coxiella burnetii, Helicobacter pylori",200,0.8219992567818655
+Anaplasma phagocytophilum,3,"Burkholderia pseudomallei, Coxiella burnetii, Helicobacter pylori",500,0.6843180973615757
+Anaplasma phagocytophilum,3,"Escherichia coli, Acinetobacter baumannii, Coxiella burnetii",200,0.7495354886659235
+Anaplasma phagocytophilum,3,"Escherichia coli, Acinetobacter baumannii, Coxiella burnetii",500,0.70958751393534
+Anaplasma phagocytophilum,3,"Burkholderia pseudomallei, Acinetobacter baumannii, Helicobacter pylori",200,0.6265328874024526
+Anaplasma phagocytophilum,3,"Burkholderia pseudomallei, Acinetobacter baumannii, Helicobacter pylori",500,0.45968041620215533
+Anaplasma phagocytophilum,3,"Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii",200,0.7077294685990339
+Anaplasma phagocytophilum,3,"Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii",500,0.7045707915273134
+Anaplasma phagocytophilum,3,"Mycobacterium tuberculosis, Acinetobacter baumannii, Helicobacter pylori",200,0.864362690449647
+Anaplasma phagocytophilum,3,"Mycobacterium tuberculosis, Acinetobacter baumannii, Helicobacter pylori",500,0.5315867707172055
+Anaplasma phagocytophilum,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Helicobacter pylori, Porphyromonas gingivalis",200,0.7079152731326643
+Anaplasma phagocytophilum,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Helicobacter pylori, Porphyromonas gingivalis",500,0.5659606094388703
+Anaplasma phagocytophilum,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Helicobacter pylori, Porphyromonas gingivalis",1000,0.6213303604607953
+Anaplasma phagocytophilum,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Helicobacter pylori",200,0.7372723894463026
+Anaplasma phagocytophilum,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Helicobacter pylori",500,0.7192493496841323
+Anaplasma phagocytophilum,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Helicobacter pylori",1000,0.6845039018952062
+Anaplasma phagocytophilum,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii, Helicobacter pylori",200,0.8355629877369009
+Anaplasma phagocytophilum,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii, Helicobacter pylori",500,0.7709030100334449
+Anaplasma phagocytophilum,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii, Helicobacter pylori",1000,0.7201783723522854
+Anaplasma phagocytophilum,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis",200,0.7722036417688591
+Anaplasma phagocytophilum,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis",500,0.573950204384987
+Anaplasma phagocytophilum,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis",1000,0.5784095131921219
+Anaplasma phagocytophilum,5,"Legionella pneumophila, Mycobacterium tuberculosis, Acinetobacter baumannii, Helicobacter pylori, Porphyromonas gingivalis",200,0.8496841322928279
+Anaplasma phagocytophilum,5,"Legionella pneumophila, Mycobacterium tuberculosis, Acinetobacter baumannii, Helicobacter pylori, Porphyromonas gingivalis",500,0.7807506503158677
+Anaplasma phagocytophilum,5,"Legionella pneumophila, Mycobacterium tuberculosis, Acinetobacter baumannii, Helicobacter pylori, Porphyromonas gingivalis",1000,0.791898922333705
+Bacteroides fragilis,1,Acinetobacter baumannii,200,0.7677133655394526
+Bacteroides fragilis,1,Legionella pneumophila,200,0.7127616747181964
+Bacteroides fragilis,1,Legionella pneumophila,500,0.773953301127214
+Bacteroides fragilis,1,Mycobacterium tuberculosis,200,0.6533816425120773
+Bacteroides fragilis,3,"Burkholderia pseudomallei, Coxiella burnetii, Helicobacter pylori",200,0.7296698872785828
+Bacteroides fragilis,3,"Burkholderia pseudomallei, Coxiella burnetii, Helicobacter pylori",500,0.7528180354267311
+Bacteroides fragilis,3,"Escherichia coli, Acinetobacter baumannii, Coxiella burnetii",200,0.7387278582930756
+Bacteroides fragilis,3,"Escherichia coli, Acinetobacter baumannii, Coxiella burnetii",500,0.7471819645732689
+Bacteroides fragilis,3,"Burkholderia pseudomallei, Acinetobacter baumannii, Helicobacter pylori",200,0.7890499194847022
+Bacteroides fragilis,3,"Burkholderia pseudomallei, Acinetobacter baumannii, Helicobacter pylori",500,0.8158212560386473
+Bacteroides fragilis,3,"Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii",200,0.8011272141706924
+Bacteroides fragilis,3,"Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii",500,0.8321256038647343
+Bacteroides fragilis,3,"Mycobacterium tuberculosis, Acinetobacter baumannii, Helicobacter pylori",200,0.770330112721417
+Bacteroides fragilis,3,"Mycobacterium tuberculosis, Acinetobacter baumannii, Helicobacter pylori",500,0.803341384863124
+Bacteroides fragilis,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Helicobacter pylori, Porphyromonas gingivalis",200,0.7224235104669887
+Bacteroides fragilis,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Helicobacter pylori, Porphyromonas gingivalis",500,0.6511674718196458
+Bacteroides fragilis,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Helicobacter pylori, Porphyromonas gingivalis",1000,0.7950885668276972
+Bacteroides fragilis,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Helicobacter pylori",200,0.7332930756843801
+Bacteroides fragilis,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Helicobacter pylori",500,0.7858293075684379
+Bacteroides fragilis,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Helicobacter pylori",1000,0.8516505636070854
+Bacteroides fragilis,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii, Helicobacter pylori",200,0.7347020933977456
+Bacteroides fragilis,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii, Helicobacter pylori",500,0.7240338164251208
+Bacteroides fragilis,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii, Helicobacter pylori",1000,0.8144122383252818
+Bacteroides fragilis,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis",200,0.7860305958132044
+Bacteroides fragilis,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis",500,0.7727455716586151
+Bacteroides fragilis,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis",1000,0.8188405797101449
+Bacteroides fragilis,5,"Legionella pneumophila, Mycobacterium tuberculosis, Acinetobacter baumannii, Helicobacter pylori, Porphyromonas gingivalis",200,0.7385265700483091
+Bacteroides fragilis,5,"Legionella pneumophila, Mycobacterium tuberculosis, Acinetobacter baumannii, Helicobacter pylori, Porphyromonas gingivalis",500,0.6908212560386473
+Bacteroides fragilis,5,"Legionella pneumophila, Mycobacterium tuberculosis, Acinetobacter baumannii, Helicobacter pylori, Porphyromonas gingivalis",1000,0.764694041867955
+Vibrio parahaemolyticus,1,Acinetobacter baumannii,200,0.6675358539765319
+Vibrio parahaemolyticus,1,Legionella pneumophila,200,0.8396349413298565
+Vibrio parahaemolyticus,1,Legionella pneumophila,500,0.8826597131681877
+Vibrio parahaemolyticus,1,Mycobacterium tuberculosis,200,0.784354628422425
+Vibrio parahaemolyticus,3,"Burkholderia pseudomallei, Coxiella burnetii, Helicobacter pylori",200,0.8229465449804433
+Vibrio parahaemolyticus,3,"Burkholderia pseudomallei, Coxiella burnetii, Helicobacter pylori",500,0.8185136897001303
+Vibrio parahaemolyticus,3,"Escherichia coli, Acinetobacter baumannii, Coxiella burnetii",200,0.7405475880052151
+Vibrio parahaemolyticus,3,"Escherichia coli, Acinetobacter baumannii, Coxiella burnetii",500,0.7303780964797915
+Vibrio parahaemolyticus,3,"Burkholderia pseudomallei, Acinetobacter baumannii, Helicobacter pylori",200,0.7726205997392439
+Vibrio parahaemolyticus,3,"Burkholderia pseudomallei, Acinetobacter baumannii, Helicobacter pylori",500,0.8279009126466753
+Vibrio parahaemolyticus,3,"Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii",200,0.8518904823989569
+Vibrio parahaemolyticus,3,"Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii",500,0.820599739243807
+Vibrio parahaemolyticus,3,"Mycobacterium tuberculosis, Acinetobacter baumannii, Helicobacter pylori",200,0.755671447196871
+Vibrio parahaemolyticus,3,"Mycobacterium tuberculosis, Acinetobacter baumannii, Helicobacter pylori",500,0.8099087353324642
+Vibrio parahaemolyticus,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Helicobacter pylori, Porphyromonas gingivalis",200,0.8065189048239896
+Vibrio parahaemolyticus,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Helicobacter pylori, Porphyromonas gingivalis",500,0.8179921773142113
+Vibrio parahaemolyticus,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Helicobacter pylori, Porphyromonas gingivalis",1000,0.8492829204693612
+Vibrio parahaemolyticus,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Helicobacter pylori",200,0.833116036505867
+Vibrio parahaemolyticus,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Helicobacter pylori",500,0.8200782268578879
+Vibrio parahaemolyticus,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Burkholderia pseudomallei, Helicobacter pylori",1000,0.9126466753585397
+Vibrio parahaemolyticus,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii, Helicobacter pylori",200,0.8341590612777052
+Vibrio parahaemolyticus,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii, Helicobacter pylori",500,0.8644067796610169
+Vibrio parahaemolyticus,5,"Legionella pneumophila, Pseudomonas aeruginosa, Escherichia coli, Coxiella burnetii, Helicobacter pylori",1000,0.8667535853976532
+Vibrio parahaemolyticus,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis",200,0.8696219035202086
+Vibrio parahaemolyticus,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis",500,0.7820078226857888
+Vibrio parahaemolyticus,5,"Pseudomonas aeruginosa, Mycobacterium tuberculosis, Escherichia coli, Coxiella burnetii, Porphyromonas gingivalis",1000,0.8576271186440678
+Vibrio parahaemolyticus,5,"Legionella pneumophila, Mycobacterium tuberculosis, Acinetobacter baumannii, Helicobacter pylori, Porphyromonas gingivalis",200,0.8172099087353325
+Vibrio parahaemolyticus,5,"Legionella pneumophila, Mycobacterium tuberculosis, Acinetobacter baumannii, Helicobacter pylori, Porphyromonas gingivalis",500,0.8117340286831812
+Vibrio parahaemolyticus,5,"Legionella pneumophila, Mycobacterium tuberculosis, Acinetobacter baumannii, Helicobacter pylori, Porphyromonas gingivalis",1000,0.7710560625814863
