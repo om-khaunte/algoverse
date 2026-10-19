@@ -1,0 +1,12 @@
+{
+  "analysis_name": "30% cross-species homology sensitivity analysis",
+  "input_dataset": "data/vf_dataset_before_cdhit40.csv",
+  "input_fasta": "raw/cdhit30/vf_all_sequences.faa",
+  "clustering_program": "psi-cd-hit.pl",
+  "identity_threshold": 0.3,
+  "identity_mode": "global",
+  "accurate_mode": true,
+  "cross_species_policy": "Remove every protein from any cluster containing proteins from more than one species.",
+  "output_prefix": "raw/cdhit30/vf_all_sequences_psi_cdhit30",
+  "role": "Sensitivity analysis only; CD-HIT-40 remains the primary analysis."
+}
